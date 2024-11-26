@@ -1,0 +1,61 @@
+.intitule {
+    background-color: #dddddd;
+    position: absolute;
+    top: 45%;
+}
+
+div.image {
+    background-color: #dddddd;
+}
+
+.perso1 {
+    background: url("../img/Noemie.jpg");
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    opacity: 0;
+}
+
+.perso2 {
+    background: url("../img/Sylvain.jpg");
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    opacity: 0;
+}
+
+.perso3 {
+    background: url("../img/Greg.jpg");
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    opacity: 0;
+}
+
+.perso4 {
+    background: url("../img/Sophie.jpg");
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    opacity: 0;
+}

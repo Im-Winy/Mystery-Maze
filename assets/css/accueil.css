@@ -1,0 +1,119 @@
+/* MAIN */
+main .photo {
+    position: relative;
+}
+
+main .prix {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: #fff;
+    padding: 3px;
+}
+
+main h3.titre-2 {
+    background-color: #000;
+    border: 5px solid #fff;
+    color: #fff;
+}
+
+main h3.titre-1 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 3px;
+}
+
+/* ZONE D'ACCUEIL */
+div.home-aria {
+    height: 70vh;
+    background-image: url(../img/bg-home-page.webp);
+    background-size: cover;
+    /* On couvre toute la partie de la home-page */
+    background-position: center;
+    /* On affiche à partir du centre de l'image */
+    background-repeat: no-repeat;
+    /* On affiche une seule fois l'image */
+}
+
+/* NEWSLETTER */
+section.newsletter input {
+    width: 270px;
+    height: 40px;
+}
+
+div.newsletter a.btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BOÎTE */
+.box {
+    background-color: transparent;
+    width: 100%;
+    height: 350px;
+    border: 5px solid #dddddd;
+    perspective: 1000px;
+}
+
+/* BOÎTE INTERIEUR */
+.box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.box:hover .box-inner {
+    transform: rotateY(180deg);
+}
+
+.box-front,
+.box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+/* BOÎTE VUE DE FACE */
+.box-front {
+    background-color: #dddddd;
+    color: #000;
+}
+
+/* BOÎTE VUE DE DOS */
+.box-back {
+    background-color: #dddddd;
+    padding: 0.5rem;
+    color: #000;
+    transform: rotateY(180deg);
+}
+
+/* fin de BOÎTE */
+/* fin du MAIN */
+
+@media screen and (min-width: 360px) and (max-width: 428px) {
+
+    /* ZONE D'ACCUEIL */
+    div.home-aria {
+        height: 100vh;
+    }
+
+    /* NEWSLETTER */
+    section.newsletter input {
+        height: 40px;
+    }
+
+}

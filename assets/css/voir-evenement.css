@@ -1,0 +1,13 @@
+.fiche-produit {
+    display: flex;
+}
+
+@media screen and (min-width: 360px) and (max-width: 428px) {
+    .fiche-produit {
+        flex-direction: column !important;
+    }
+
+    div.w-50 {
+        width: 100% !important;
+    }
+}

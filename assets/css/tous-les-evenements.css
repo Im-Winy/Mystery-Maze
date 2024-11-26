@@ -1,0 +1,21 @@
+.carte:hover {
+    transform: scale(1.10);
+    /* Valeur de l'agrandissement de card*/
+    transition: transform 0.3s ease;
+    /* Duré de transition */
+}
+
+main .prix2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: 1.5rem;
+    background-color: #fff;
+    padding: 3px;
+}
+
+.booking-aria{
+    height: 70rem;
+}

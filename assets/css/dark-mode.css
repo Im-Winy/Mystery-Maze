@@ -1,0 +1,40 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* BODY */
+body {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MAIN */
+/* Styles pour le mode sombre */
+.dark-mode {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+/* fin du MAIN */
+
+/* FOOTER */
+footer {
+    padding: 2rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+}
+
+/* fin du FOOTER */
